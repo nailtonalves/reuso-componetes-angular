@@ -1,0 +1,11 @@
+<div style="background-color: aqua;">
+  <p>filho works!</p>
+  <form [formGroup]="form">
+    <label for="data">Data: </label>
+    <input type="date" formControlName="data" name="data">
+    <br>
+    <label for="status">Status Form: </label>
+    <label style="color: red;">{{form.status}}</label>
+  </form>
+
+</div>

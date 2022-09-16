@@ -1,0 +1,11 @@
+<div style="background-color: cornflowerblue;">
+  <p>pai works!</p>
+  <app-filho (statusValidacaoForm)="setStatus($event)"></app-filho>
+  <br>
+  <br>
+  <label for="datafilho">Data Selecionado em Filho: </label>
+  <input type="text" value={{this.form?.data?.value}} name="datafilho">
+  <br>
+  <label for="status">Status Form Filho: </label>
+  <input type="text" value={{status}} name="status">
+</div>
